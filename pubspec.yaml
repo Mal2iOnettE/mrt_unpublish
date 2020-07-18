@@ -1,0 +1,133 @@
+name: promotion_mrt
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  dio: any
+  flutter_widget_from_html: any
+  flutter_html: any
+  flutter_youtube: any
+  bubble_bottom_bar: any
+  flutter_staggered_grid_view: any
+  url_launcher: any
+  ##webview_flutter: any
+  flutter_webview_plugin: any
+  carousel_pro: any
+  carousel_slider: any
+  rflutter_alert: any
+  flutter_alert: any
+  sweet_alert_dialogs: "^0.1.0"
+  easy_dialog: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    ##sub menu button
+    - images/img_button_first_last_train.png
+    - images/img_button_info_station.png
+    - images/img_button_mrtclub.png
+    - images/img_button_route.png
+    - images/img_button_ticket.png
+
+    ##VDO youtube icons
+    - images/icons/img_icon_youtube.png
+    - images/icons/img_icon_youtube_mrt_channel.png
+    
+    ## Go Around
+    - images/icons/GoAround/img_icon_around.png
+    - images/icons/GoAround/img_icon_train_blue_gra.png
+    - images/icons/GoAround/img_icon_station_popup.png
+
+    ## Contract icons
+    - images/icons/contract/img_icon_more_mrt.png
+    - images/icons/contract/img_icon_more_twitter.png
+    - images/icons/contract/img_icon_more_youtube.png
+    - images/icons/contract/img_icon_more_fb.png
+    - images/icons/contract/img_icon_more_ig.png
+    - images/icons/contract/img_icon_more_call.png
+    - images/icons/contract/img_icon_more_email.png
+    
+    ## information bg
+    - images/img_bg_info/img_bg_button.png
+    - images/img_bg_info/img_bg_button_short.png
+    - images/img_bg_info/img_bg_info_car.png
+    - images/img_bg_info/img_bg_info_conditions_card.png
+    - images/img_bg_info/img_bg_info_lucky.png
+    - images/img_bg_info/img_bg_info_metro.png
+    - images/img_bg_info/img_bg_info_mshop.png
+    - images/img_bg_info/img_bg_info_news.png
+    - images/img_bg_info/img_bg_info_park.png
+    - images/img_bg_info/img_bg_info_price.png
+    - images/img_bg_info/img_bg_info_safetytips.png
+    - images/img_bg_info/img_bg_info_ticket.png
+    - images/img_bg_info/img_bg_info_time.png
+
+    ## info icons
+    - images/icons/info/img_icon_info_lucky.png
+    - images/icons/info/img_icon_info_metromall.png
+    - images/icons/info/img_icon_info_mshop.png
+    - images/icons/info/img_icon_info_park.png
+    - images/icons/info/img_pin_transparent.png
+
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
